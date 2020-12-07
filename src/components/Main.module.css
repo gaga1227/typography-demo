@@ -1,0 +1,89 @@
+.container {
+  display: block;
+  position: relative;
+}
+
+.aside {
+  background: white;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 30px 24px;
+}
+.aside h1 {
+  margin: 0 auto;
+  max-width: 350px;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+.aside img {
+  display: block;
+  width: 120px;
+  height: auto;
+  margin: 30px auto 0 auto;
+  border-radius: 50%;
+}
+
+.main {
+  display: block;
+  width: 100%;
+  padding: 30px 24px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.main > :first-child {
+  margin-top: 0;
+}
+.main > :last-child {
+  margin-bottom: 0;
+}
+.main h2 {
+  text-transform: uppercase;
+}
+
+.contact b {
+  display: block;
+}
+.contact li {
+  font-family: "mono", monospace;
+  word-break: break-all;
+}
+
+@media only screen and (min-width: 1000px) {
+  .aside {
+    display: flex;
+    position: fixed;
+    flex-flow: column nowrap;
+    width: 360px;
+    height: 100vh;
+    overflow: hidden;
+    padding: 60px;
+  }
+  .aside h1 {
+    flex: 1 1 100%;
+    font-size: 40px;
+    text-align: left;
+    max-width: none;
+  }
+  .aside img {
+    flex: 1 1 auto;
+    width: 180px;
+    margin: 0;
+  }
+
+  .main {
+    width: calc(100% - 360px);
+    min-height: 100vh;
+    margin-left: 360px;
+    padding: 60px;
+  }
+  .contact b {
+    display: inline-flex;
+    min-width: 120px;
+  }
+}

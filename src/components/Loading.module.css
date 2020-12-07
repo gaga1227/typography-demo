@@ -1,0 +1,15 @@
+.loading {
+  background: #ff3b30;
+  color: white;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  margin: 160px auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+}
