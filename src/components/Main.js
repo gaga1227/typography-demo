@@ -7,16 +7,14 @@ export default function Main() {
   return (
     <div className={styles.container}>
       {/* Title and brand */}
-      <Animated animationIn="slideInLeft" isVisible={true}>
-        <aside className={styles.aside}>
-          <h1>
-            Johnny Xu <br /> Creative Designer / Developer
-          </h1>
-          <a href="http://gaga-graphics.com" target="_blank" rel="noreferrer">
-            <img src={logo} alt="Johnny's brand logo" title="GAGA GRAPHICS" />
-          </a>
-        </aside>
-      </Animated>
+      <aside className={styles.aside}>
+        <h1>
+          Johnny Xu <br /> Creative Designer / Developer
+        </h1>
+        <a href="http://gaga-graphics.com" target="_blank" rel="noreferrer">
+          <img src={logo} alt="Johnny's brand logo" title="GAGA GRAPHICS" />
+        </a>
+      </aside>
 
       {/* Bio content */}
       <main className={styles.main}>
