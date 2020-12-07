@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Preview
+
+The demo can be previewed here:
+[http://gaga-graphics.com/typography-demo/build/](http://gaga-graphics.com/typography-demo/build/)
+
 ## Features
 
 This demo demonstrates a page where users can dynamically replace the 'font face' used by content with a button, details are below:
