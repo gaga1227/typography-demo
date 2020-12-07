@@ -5,10 +5,13 @@ import styles from "./Typography.module.css";
 
 export default function Typography({ fontCategories }) {
   const [fonts, setFonts] = useState({});
+
+  // pick random fonts on initial start
   useEffect(() => {
     setFonts(prepFontFaceMap(fontCategories));
   }, [fontCategories]);
 
+  // pick random fonts again on manual button click
   const handleOnClick = () => {
     setFonts(prepFontFaceMap(fontCategories));
   };

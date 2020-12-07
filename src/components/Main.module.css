@@ -1,20 +1,22 @@
+/* Container */
 .container {
   display: block;
   position: relative;
 }
 
+/* Aside and contents */
 .aside {
   background: white;
   display: block;
   position: relative;
   width: 100%;
   height: auto;
-  box-sizing: border-box;
   padding: 30px 24px;
+  box-sizing: border-box;
 }
 .aside h1 {
-  margin: 0 auto;
   max-width: 350px;
+  margin: 0 auto;
   font-size: 32px;
   line-height: 1.2;
   font-weight: 400;
@@ -29,6 +31,7 @@
   border-radius: 50%;
 }
 
+/* Main and contents */
 .main {
   display: block;
   width: 100%;
@@ -36,10 +39,10 @@
   box-sizing: border-box;
   overflow: hidden;
 }
-.main > :first-child {
+.main .contentWrapper > :first-child {
   margin-top: 0;
 }
-.main > :last-child {
+.main .contentWrapper > :last-child {
   margin-bottom: 0;
 }
 .main h2 {
@@ -54,6 +57,7 @@
   word-break: break-all;
 }
 
+/* Responsive - Desktop */
 @media only screen and (min-width: 1000px) {
   .aside {
     display: flex;
@@ -66,9 +70,9 @@
   }
   .aside h1 {
     flex: 1 1 100%;
+    max-width: none;
     font-size: 40px;
     text-align: left;
-    max-width: none;
   }
   .aside img {
     flex: 1 1 auto;

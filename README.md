@@ -19,6 +19,7 @@ This demo demonstrates a page where users can dynamically replace the 'font face
 ## Further Improvements
 
 - better code organisation
+- better management on font face e.g. theme object via Context API
 - reusable CSS modules
 - better error handling
 - unit test coverage

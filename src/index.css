@@ -24,18 +24,18 @@ h2 {
 
 h3 {
   color: inherit;
+  font-family: "serif", serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.2;
-  font-family: "serif", serif;
 }
 
 p,
 li {
+  font-family: "sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
-  font-family: "sans", sans-serif;
 }
 
 ul,
